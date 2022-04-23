@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Chip from "../../../common/Chip";
 import "./index.css";
 
@@ -30,7 +29,7 @@ const BlogItem = ({
             <p>{createdAt}</p>
           </div>
         </div>
-        <a className="blogItem-link" href={""}>
+        <a className="blogItem-link" href={link}>
           ➝
         </a>
       </footer>
