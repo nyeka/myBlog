@@ -30,7 +30,7 @@ const BlogItem = ({
             <p>{createdAt}</p>
           </div>
         </div>
-        <a className="blogItem-link" href={link}>
+        <a className="blogItem-link" href={""}>
           ➝
         </a>
       </footer>
