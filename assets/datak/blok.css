@@ -9,14 +9,14 @@
   section .container p {
     font-size: 14px;
   }
-  section .container p  {
+  section .container p {
     font-size: 16px;
   }
   section .container li {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   section .container {
     width: 70%;
   }
