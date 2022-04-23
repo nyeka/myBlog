@@ -4,7 +4,6 @@ import { blogList } from "../../config/data";
 import Chip from "../../components/common/Chip";
 import EmptyList from "../../components/common/EmptyList";
 import "./style.css";
-import { Link } from "react-router-dom";
 
 const Blog = () => {
   const { id } = useParams();
@@ -19,9 +18,9 @@ const Blog = () => {
 
   return (
     <>
-      <Link className="blog-goBack" to="/">
+      <a className="blog-goBack" href="/">
         <span> &#8592;</span> <span>Go Back</span>
-      </Link>
+      </a>
       {blog ? (
         <div className="blog-wrap">
           <header>
