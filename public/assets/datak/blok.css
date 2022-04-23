@@ -9,7 +9,7 @@
   section .container p {
     font-size: 14px;
   }
-  section .container p b {
+  section .container p  {
     font-size: 16px;
   }
   section .container li {
