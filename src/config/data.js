@@ -22,7 +22,7 @@ export const blogList = [
     authorName: "Nyoman Eka Swardita",
     authorAvatar: "assets/nyoman.jpeg",
     createdAt: "april 23, 2022",
-    link: "assets/tata/data.html",
-    cover: "assets/testing.png",
+    link: "assets/datak/blok.html",
+    cover: "assets/classdiagram.png",
   },
 ];
