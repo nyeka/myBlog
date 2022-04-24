@@ -1,6 +1,6 @@
-import classdiagram from "../components/images/classdiagram.png";
 import author from "../components/images/nyoman.jpeg";
-import cover1 from "../components/images/testing.png";
+import classdiagram from "../images/classdiagram.png";
+import img1 from "../images/testing.png";
 
 export const blogList = [
   {
@@ -13,11 +13,11 @@ export const blogList = [
     authorName: "Nyoman Eka Swardita",
     authorAvatar: author,
     createdAt: "June 03, 2021",
-    link: "",
-    cover: cover1,
+    link: "assets/datak/data.html",
+    cover: img1,
   },
   {
-    id: 2,
+    id: 1,
     title: "Artikel Class Diagram ",
     category: "Rpl",
     subCategory: ["RPl", "rekayasa perangkat lunak", "Tugas Kuliah"],
@@ -26,7 +26,7 @@ export const blogList = [
     authorName: "Nyoman Eka Swardita",
     authorAvatar: author,
     createdAt: "april 23, 2022",
-    link: "../data/blok.html",
+    link: "assets/datak/blok.html",
     cover: classdiagram,
   },
 ];
