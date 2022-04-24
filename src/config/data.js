@@ -1,6 +1,6 @@
 import author from "../components/images/nyoman.jpeg";
-import classdiagram from "../images/classdiagram.png";
-import img1 from "../images/testing.png";
+import classdiagram from "../components/images/classdiagram.png";
+import img1 from "../components/images/testing.png";
 
 export const blogList = [
   {
