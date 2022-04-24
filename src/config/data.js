@@ -12,7 +12,7 @@ export const blogList = [
     authorName: "Nyoman Eka Swardita",
     authorAvatar: author,
     createdAt: "June 03, 2021",
-    link: "assets/datak/blog.js",
+    link: "https://twitter.com",
     cover: img1,
   },
   {
