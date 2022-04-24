@@ -1,7 +1,6 @@
 import author from "../components/images/nyoman.jpeg";
 import classdiagram from "../components/images/classdiagram.png";
 import img1 from "../components/images/testing.png";
-
 export const blogList = [
   {
     id: 1,
@@ -13,7 +12,7 @@ export const blogList = [
     authorName: "Nyoman Eka Swardita",
     authorAvatar: author,
     createdAt: "June 03, 2021",
-    link: "assets/datak/data.html",
+    link: "../components/data/test",
     cover: img1,
   },
   {
