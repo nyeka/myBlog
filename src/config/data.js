@@ -12,7 +12,7 @@ export const blogList = [
     authorName: "Nyoman Eka Swardita",
     authorAvatar: author,
     createdAt: "June 03, 2021",
-    link: "../components/data/test",
+    link: "components/data/test",
     cover: img1,
   },
   {
