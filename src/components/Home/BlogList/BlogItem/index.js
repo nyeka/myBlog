@@ -1,5 +1,4 @@
 import React from "react";
-import { Router } from "react-router";
 import { Link } from "react-router-dom";
 import Chip from "../../../common/Chip";
 import "./index.css";
@@ -7,7 +6,6 @@ import "./index.css";
 const BlogItem = ({
   blog: {
     description,
-    link,
     title,
     createdAt,
     authorName,
@@ -19,7 +17,7 @@ const BlogItem = ({
 }) => {
   return (
     <div className="blogItem-wrap">
-      <img className="blogItem-cover" src={ cover } alt="cover" />
+      <img className="blogItem-cover" src={cover} alt="cover" />
       <Chip label={category} />
       <h3>
         <Link to={`/blog/${id}`}>{title}</Link>
