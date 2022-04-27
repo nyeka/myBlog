@@ -18,9 +18,13 @@ const Home = () => {
   // Search for blog by category
   const handleSearchResults = () => {
     const allBlogs = blogList;
-    const filteredBlogs = allBlogs.filter((blog) =>
-      blog.category.toLowerCase().includes(searchKey.toLowerCase().trim())
+    const filteredBlogs = allBlogs.filter(
+      (blog) =>
+        blog.title.toLowerCase().includes(searchKey.toLowerCase().trim()) ||
+        blog.category.toLowerCase().includes(searchKey.toLowerCase().trim()) ||
+        blog.createdAt.toLowerCase().includes(searchKey.toLowerCase().trim())
     );
+
     setBlogs(filteredBlogs);
   };
 

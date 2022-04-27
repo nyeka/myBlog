@@ -19,7 +19,7 @@ export const blogList = [
     id: 2,
     title: "Artikel Class Diagram ",
     category: "Rpl",
-    subCategory: ["RPl", "rekayasa perangkat lunak", "Tugas Kuliah"],
+    subCategory: ["RPl", "rekayasa perangkat lunak", "Tugas Kuliah", "jurnal"],
     description:
       "Class diagram adalah bagian dari UML (Unified Modeling Language). Dimana class diagram ini menggambarkan struktur dan deskripsi serta hubungan antar class diagram tersebut. Class diagram merupakan alur database dalam sebuah progam. Dimana pada setiap laporan sistem yang hendak dibuat, class diagram harus diikutsertakan, karena dari sinilah kita dapat melihat aliran data sebuah program.",
     authorName: "Nyoman Eka Swardita",
