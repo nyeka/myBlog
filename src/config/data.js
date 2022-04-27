@@ -13,7 +13,6 @@ export const blogList = [
     authorName: "Nyoman Eka Swardita",
     authorAvatar: author,
     createdAt: "June 03, 2021",
-    link: "https://twitter.com",
     cover: img1,
   },
   {
@@ -26,7 +25,6 @@ export const blogList = [
     authorName: "Nyoman Eka Swardita",
     authorAvatar: author,
     createdAt: "april 23, 2022",
-    link: "assets/datak/blok.html",
     cover: classdiagram,
   },
 ];
