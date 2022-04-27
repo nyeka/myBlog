@@ -8,8 +8,11 @@ export default function Blogku() {
   let tmptitem;
   blogList.map((item) => {
     if (item.id === 2) {
-      return (tmptitem = item);
+      tmptitem = item;
     }
+    return {
+      tmptitem,
+    };
   });
 
   return (

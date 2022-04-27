@@ -40,7 +40,7 @@ html {
 }
 
 .image__content {
-  margin: 30px;
+  width: 100%;
   background-size: contain;
 }
 .container .author > p {
@@ -85,9 +85,6 @@ html {
 }
 
 @media screen and (max-width: 576px) {
-  .image__content {
-    width: 370px;
-  }
   body section .conten {
     padding: 12% 0;
     width: 85%;
