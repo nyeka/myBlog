@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import { blogList } from "../../config/data";
 import Chip from "../../components/common/Chip";
 import EmptyList from "../../components/common/EmptyList";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const Blog = () => {
@@ -18,9 +19,9 @@ const Blog = () => {
 
   return (
     <>
-      <a className="blog-goBack" href="/">
+      <Link className="blog-goBack" to="/">
         <span> &#8592;</span> <span>Go Back</span>
-      </a>
+      </Link>
       {blog ? (
         <div className="blog-wrap">
           <header>

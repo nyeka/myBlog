@@ -22,7 +22,7 @@ const BlogItem = ({
       <img className="blogItem-cover" src={cover} alt="cover" />
       <Chip label={category} />
       <h3>
-        <a href={link}>{title}</a>
+        <Link to={`/blog/${id}`}>{title}</Link>
       </h3>
       <p className="blogItem-desc">{description}</p>
       <footer>
@@ -33,7 +33,7 @@ const BlogItem = ({
             <p>{createdAt}</p>
           </div>
         </div>
-        <Link className="blogItem-link" to={link} >
+        <Link className="blogItem-link" to={`/blog/${id}`}>
           ➝
         </Link>
       </footer>

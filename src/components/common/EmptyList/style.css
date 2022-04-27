@@ -1,9 +1,16 @@
 .emptyList-wrap {
-    display: flex;
-    justify-content: center;
-  }
-  .emptyList-wrap img {
-    max-width: 250px;
-    width: 100%;
-  }
-  
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+.emptyList-wrap img {
+  align-items: center;
+  align-content: center;
+  max-width: 250px;
+  text-align: center;
+  width: 100%;
+}
+
+.artikel__ku {
+  text-align: center;
+}

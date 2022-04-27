@@ -1,6 +1,7 @@
 import author from "../components/images/nyoman.jpeg";
 import classdiagram from "../components/images/classdiagram.png";
 import img1 from "../components/images/testing.png";
+
 export const blogList = [
   {
     id: 1,
@@ -16,7 +17,7 @@ export const blogList = [
     cover: img1,
   },
   {
-    id: 1,
+    id: 2,
     title: "Artikel Class Diagram ",
     category: "Rpl",
     subCategory: ["RPl", "rekayasa perangkat lunak", "Tugas Kuliah"],

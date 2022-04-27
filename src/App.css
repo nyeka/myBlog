@@ -7,6 +7,10 @@
   margin: 0;
   background-image: "";
 }
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
 
 html {
   -moz-user-select: none;
@@ -14,6 +18,8 @@ html {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 body {
