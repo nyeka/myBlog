@@ -14,7 +14,7 @@ export default function Blogku() {
 
   return (
     <>
-      <Link className="blog-goBack" to="/">
+      <Link className="blog-goBack" to="/myBlog">
         <span> &#8592;</span> <span>Go Back</span>
       </Link>
       <div className="blog-wrap">

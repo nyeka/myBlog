@@ -10,10 +10,10 @@ const App = () => {
     <div className="container">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="/myBlog" exact component={Home} />
         <Route path="/blog/2" component={Blogku} />
         <Route path="/blog/:id" component={Blog} />
-        <Redirect to="/" />
+        <Redirect to="/myBlog" />
       </Switch>
     </div>
   );
