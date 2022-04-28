@@ -24,7 +24,6 @@ const Home = () => {
         blog.category.toLowerCase().includes(searchKey.toLowerCase().trim()) ||
         blog.createdAt.toLowerCase().includes(searchKey.toLowerCase().trim())
     );
-
     setBlogs(filteredBlogs);
   };
 
