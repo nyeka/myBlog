@@ -4,6 +4,7 @@ html {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  margin: 0;
 }
 
 .blog-wrap header {
@@ -43,10 +44,10 @@ html {
   width: 100%;
   background-size: contain;
 }
-.container .author > p {
+.conten .author > p {
   margin-bottom: 3% !important;
 }
-.container > h3 {
+.conten > h3 {
   font-size: 26px;
   font-weight: 600;
   line-height: 54px;
@@ -85,26 +86,9 @@ html {
 }
 
 @media screen and (max-width: 576px) {
-  body section .conten {
+  .conten {
     padding: 12% 0;
-    width: 85%;
-  }
-  section .content h3 {
-    font-size: 20px;
-  }
-  section .conten p {
-    font-size: 14px;
-  }
-  section .content p {
-    font-size: 16px;
-  }
-  section .conten li {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  section .conten {
-    width: 70%;
+    width: 88%;
   }
 }
 
@@ -112,4 +96,5 @@ html {
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
+  font-family: sans-serif;
 }

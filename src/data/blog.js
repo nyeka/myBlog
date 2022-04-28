@@ -33,7 +33,7 @@ export default function Blogku() {
           </div>
         </header>
       </div>
-      <div className="container conten">
+      <div className="conten">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <h3>Latar Belakang</h3>
         <p>
@@ -139,17 +139,7 @@ export default function Blogku() {
           <br />
           Begitu juga dalam hal mengatur keuangan dalam perusahaan, penerapan
           teknologi harus dimanfaatkan untuk tujuan perusahaan yang lebih baik
-          dan berkembang. Salah satunya adalah penggunaan software akuntansi dan
-          bisnis dari Accurate Online.
-          <br />
-          <br />
-          Accurate Online merupakan sebuah software berbasis cloud, yang sudah
-          dilengkapi fitur keuangan yang penting bagi perusahaan seperti
-          manajemen aset, pembukuan, gudang, dan lain sebagainya.
-          <br />
-          <br />
-          Selain itu, terdapat otomatisasi hingga lebih dari 200 jenis laporan
-          keuangan, termasuk pencatatan perpajakan di dalamnya.
+          dan berkembang.
         </p>
         <h3>Penutup</h3>
         <p>
