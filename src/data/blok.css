@@ -38,6 +38,7 @@ html {
   padding: 3% 5%;
   background-color: #eee;
   border-radius: 25px;
+  margin-bottom: 5rem;
 }
 
 .image__content {
@@ -63,7 +64,6 @@ html {
 
 .text__p {
   margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 .conten > p {
@@ -72,10 +72,6 @@ html {
   line-height: 28px;
 }
 
-.conten p b {
-  font-size: 20px;
-  font-weight: 500;
-}
 .conten ul {
   margin-bottom: 8%;
   padding-left: 4%;
