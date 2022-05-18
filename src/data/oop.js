@@ -133,6 +133,14 @@ export default function JurnalBlog() {
           perubahan nilai tanpa harus mengakses propertinya secara langsung,
           cukup gunakan fungsi setter yang tersedia.
         </p>
+        <div className="author">
+          <h3>Penulis</h3>
+          <p>
+            Nama : {tmptitem.authorName}
+            <br />
+            NPM : 2155061006
+          </p>
+        </div>
       </div>
     </>
   );
