@@ -45,9 +45,7 @@ export default function JurnalBlog() {
           tertentu. Dimulai dari pemahaman masalah (requirement elicitation),
           analisis, desain, implementasi, dan diakhiri dengan pengujian.
           Selanjutnya, perangkat lunak ditempatkan (deploy) pada pelanggan dan
-          dilakukan pemiliharaan terhadapnya.
-        </p>
-        <p>
+          dilakukan pemiliharaan terhadapnya. <br /> <br />
           Tahapan desain menerjemahkan kebutuhan perangkat lunak ke dalam model
           [1] yang dapat dipahami oleh pengembang perangkat lunak. Beberapa hal
           harus diperhatikan oleh desainer perangkat lunak supaya perangkat
