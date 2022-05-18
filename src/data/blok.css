@@ -67,6 +67,23 @@ html {
   font-size: 18px;
   line-height: 28px;
 }
+.conten .img5 {
+  width: 100%;
+  height: 60%;
+}
+.img3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 40%;
+  border-radius: 20px;
+}
+
+.ptag {
+  font-size: 21px;
+  margin-bottom: 1rem !important;
+}
 
 .conten ul {
   margin-bottom: 8%;

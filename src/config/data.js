@@ -1,7 +1,8 @@
 import author from "../components/images/nyoman.jpeg";
 import classdiagram from "../components/images/classdiagram.png";
 import img1 from "../components/images/testing.png";
-import img3 from "../components/images/roadmap.png"
+import img3 from "../components/images/roadmap.png";
+import im4 from "../components/images/pilar.png";
 
 export const blogList = [
   {
@@ -39,5 +40,17 @@ export const blogList = [
     authorAvatar: author,
     createdAt: "mei 9, 2022",
     cover: img3,
+  },
+  {
+    id: 5,
+    title: "Design Perangkat Lunak",
+    category: "Programming",
+    subCategory: ["Rpl", "Jurnal", "Article"],
+    description:
+      "Saat mengembangkan sebuah perangkat lunak, tentu kita harus mengetahui terlebih dahulu paradigma dalam dunia pemrograman. Mungkin kita sudah pernah mendengar beberapa paradigma seperti imperative, object-oriented, procedural, dan functional. Paradigma pemrograman itu apa sih? Paradigma pemrograman adalah gaya atau cara kita menulis program.",
+    authorName: "Nyoman Eka Swardita",
+    authorAvatar: author,
+    createdAt: "mei 16, 2022",
+    cover: im4,
   },
 ];

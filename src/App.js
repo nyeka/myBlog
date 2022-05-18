@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Blogku from "./data/blog";
 import { HashRouter } from "react-router-dom";
 import Krypto from "./data/crypto";
+import JurnalBlog from "./data/oop";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/" exact component={Home} />
           <Route path="/blog/2" component={Blogku} />
           <Route path="/blog/3" component={Krypto} />
+          <Route path="/blog/5" component={JurnalBlog} />
           <Route path="/blog/:id" component={Blog} />
           <Redirect to="/" />
         </Switch>
