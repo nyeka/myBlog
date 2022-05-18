@@ -5,6 +5,7 @@ import { blogList } from "../config/data";
 import img5 from "../components/images/class.png";
 import inherrit from "../components/images/inherit.png";
 import encapsul from "../components/images/encapsulation.png";
+import imgr5 from "../components/images/anj.jpg";
 
 export default function JurnalBlog() {
   let tmptitem;
@@ -69,6 +70,55 @@ export default function JurnalBlog() {
           merupakan sebuah pola untuk menyelesaikan masalah dalam situasi yang
           bermacam-macam.
         </p>
+        <h3>Tahapan Design</h3>
+        <img className="img3" src={imgr5} alt="tahapan design" />
+        <ul>
+          <li>Design Data: </li>
+          <p>
+            mentransformasikan model domain informasi yang dibuat pada pada
+            tahap analisis ke dalam struktur data yang akan diperlukan untuk
+            mengimplementasikan perangkat lunak. Objek dan hubungan data
+            ditetapkan dalam ERD (Entity Relationship Diagram),sedangkan isi
+            detil data digambarkan dalam kamus data.{" "}
+          </p>
+          <li>Design Arsitektur: </li>
+          <p>
+            menentukan hubungan di antara elemen-elemen struktural utama dari
+            program. (Digambarkan di dalam Data Flow Diagram).{" "}
+          </p>
+          <li>Design Antarmuka (Interface): </li>
+          <p>
+            menggambarkan bagaimana Perangkat lunak berkomunikasi dengan dirinya
+            sendiri, dengan sistem yang berinteroperasi dengan dirinya dan
+            dengan manusia yang menggunakannya.{" "}
+          </p>
+          <li>Design Prosedural (Komponen): </li>
+          <p>
+            mentransformasikan elemen-elemen struktural dari arsitektural
+            program ke dalam suatu deskripsi prosedural dari komponen-komponen
+            perangkat lunak. (Informasi diperoleh dari PSPEC, CSPEC, STD).{" "}
+          </p>
+        </ul>
+        <h3>Design Classes</h3>
+        <ul>
+          <li>
+            <b>Kelas Analisis: </b>
+          </li>
+          <p>
+            kelas hasil turunan dari tahap analisis, dengan melakukan modifikasi
+            dan adaptasi terhadap lingkungan implementasi.{" "}
+          </p>
+          <li>
+            <b>Kelas Boundary</b>
+          </li>
+          <p>
+            kelas yang terlibat dalam pembangunan antarmuka Perangkat Lunak.{" "}
+          </p>
+          <li>
+            <b>Kelas Controller</b>
+          </li>
+          <p>kelas yang dibuat untuk mengatur jalannya Perangkat Lunak. </p>
+        </ul>
         <h3>Object Oriented Konsep</h3>
         <p>
           Mengapa Object Oriented Programming? OOP (Object Oriented Programming)
