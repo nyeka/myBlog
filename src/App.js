@@ -17,7 +17,7 @@ const App = () => {
           <Route path="/" exact component={Home} />
           <Route path="/blog/2" component={Blogku} />
           <Route path="/blog/3" component={Krypto} />
-          <Route path="/blog/5" component={JurnalBlog} />
+          <Route path="/blog/4" component={JurnalBlog} />
           <Route path="/blog/:id" component={Blog} />
           <Redirect to="/" />
         </Switch>

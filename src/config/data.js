@@ -42,7 +42,7 @@ export const blogList = [
     cover: img3,
   },
   {
-    id: 5,
+    id: 4,
     title: "Design Perangkat Lunak",
     category: "Programming",
     subCategory: ["Rpl", "Jurnal", "Article"],
