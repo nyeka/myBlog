@@ -58,7 +58,20 @@ export default function JurnalBlog() {
           dihasilkan dalam tahapan desain. Tulisan ini ditutup dengan beberapa
           tantangantantangan dalam desain perangkat lunak
         </p>
-        <h3>Object Oriented</h3>
+        <h3>Design Pattern pembuatan Perangkat Lunak</h3>
+        <p>
+          Design pattern atau yang dapat diartikan sebagai pola desain adalah
+          metode yang dibuat untuk membantu tim pengembang dalam menemukan
+          solusi dari masalah-masalah umum yang muncul saat pengembangan
+          perangkat lunak sedang berlangsung.
+          <br />
+          <br /> Pola desain ini dapat digunakan kembali dalam pengembangan
+          perangkat lunak selanjutnya. Ia bukanlah suatu metode yang dapat
+          diimplementasikan langsung menjadi sebuah kode program, tetapi ia
+          merupakan sebuah pola untuk menyelesaikan masalah dalam situasi yang
+          bermacam-macam.
+        </p>
+        <h3>Object Oriented Konsep</h3>
         <p>
           Mengapa Object Oriented Programming? OOP (Object Oriented Programming)
           masih merupakan salah satu paradigma atau teknik pemrograman yang
@@ -132,6 +145,37 @@ export default function JurnalBlog() {
           encapsulation? Karena kita akan lebih leluasa dalam melakukan
           perubahan nilai tanpa harus mengakses propertinya secara langsung,
           cukup gunakan fungsi setter yang tersedia.
+        </p>
+        <h3>Abstraction</h3>
+        <p>
+          Abstraction layer atau abstraction level merupakan mekanisme yang
+          memisahkan 2 (dua) kompleksitas sebuah sistem. Dalam proses komputasi,
+          abstraction layer atau level merupakan cara menyembunyikan detail
+          implementasi yang kompleks dari serangkaian fungsionalitas tertentu
+          dengan tujuan agar dapat memisahkan masalah seperti interoperabilitas.
+          <br /> <br />
+          Contoh abstraction di dunia nyata bisa kita lihat ketika ingin
+          mengendarai mobil. Kita hanya perlu menekan pedal gas jika ingin mobil
+          berjalan tanpa harus tau apa yang telah terjadi ketika pedal gas
+          tersebut ditekan. Ini berlaku juga ketika kita ingin melakukan
+          pengereman.
+        </p>
+        <h3>Polymorphism</h3>
+        <p>
+          Polymorphism merupakan kemampuan objek, variabel, atau fungsi yang
+          dapat memiliki berbagai bentuk. Secara umum polymorphism dalam OOP
+          terjadi ketika suatu SuperClass direferensikan ke dalam SubClass.
+          <br />
+          <br />
+          Alhasil kita dapat mengembangkan sebuah program secara umum, bukan
+          spesifik. Polymorphism dapat digambarkan seperti seorang yang
+          menguasai dan mampu berbicara dalam beberapa bahasa.{" "}
+        </p>
+        <h3>Penutup</h3>
+        <p>
+          Sekian materi yang bisa saya sampaikan, jika ada kesalahan penulisan
+          atau masih terdapat kekurangan saya mohon maaf. Sekian dari saya dan
+          terima kasih.
         </p>
         <div className="author">
           <h3>Penulis</h3>
