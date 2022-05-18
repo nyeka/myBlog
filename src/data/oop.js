@@ -9,7 +9,7 @@ import encapsul from "../components/images/encapsulation.png";
 export default function JurnalBlog() {
   let tmptitem;
   blogList.map((item) => {
-    if (item.id === 5) {
+    if (item.id === 4) {
       tmptitem = item;
     }
     return {
