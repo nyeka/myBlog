@@ -10,7 +10,7 @@ import imgr5 from "../components/images/anj.jpg";
 export default function JurnalBlog() {
   let tmptitem;
   blogList.map((item) => {
-    if (item.id === 4) {
+    if (item.id === 3) {
       tmptitem = item;
     }
     return {
