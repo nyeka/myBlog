@@ -31,18 +31,6 @@ export const blogList = [
   },
   {
     id: 3,
-    title: "ZkPad Article",
-    category: "Crypto",
-    subCategory: ["ZkPad", "ZkPad Beta Test", "Article", "CryptoCurency"],
-    description:
-      "ZkPad is a fundraising platform focusing on providing a healthy and fair way for projects to launch tokens on StarkNet.Class diagram adalah bagian dari UML (Unified Modeling Language). Dimana class diagram ini menggambarkan struktur dan deskripsi serta hubungan antar class diagram tersebut. Class diagram merupakan alur database dalam sebuah progam. Dimana pada setiap laporan sistem yang hendak dibuat, class diagram harus diikutsertakan, karena dari sinilah kita dapat melihat aliran data sebuah program.",
-    authorName: "Nyoman Eka Swardita",
-    authorAvatar: author,
-    createdAt: "mei 9, 2022",
-    cover: img3,
-  },
-  {
-    id: 4,
     title: "Design Perangkat Lunak",
     category: "Programming",
     subCategory: ["Rpl", "Jurnal", "Article"],
